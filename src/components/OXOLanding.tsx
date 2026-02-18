@@ -1,18 +1,18 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { 
-  ChevronRight, 
-  TrendingUp, 
-  Shield, 
-  Zap, 
-  Users, 
-  CheckCircle, 
-  ArrowRight, 
-  Menu, 
-  X, 
-  BarChart3, 
-  Target, 
+import {
+  ChevronRight,
+  TrendingUp,
+  Shield,
+  Zap,
+  Users,
+  CheckCircle,
+  ArrowRight,
+  Menu,
+  X,
+  BarChart3,
+  Target,
   Brain,
   ChevronDown,
   ArrowLeftRight,
@@ -45,7 +45,7 @@ const OXOLanding = () => {
 
   return (
     <div className="min-h-screen bg-[#0B1120] text-white font-sans selection:bg-[#7C3AED] selection:text-white overflow-x-hidden">
-      
+
       {/* Background Decor Elements */}
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-[#2563EB] rounded-full mix-blend-multiply filter blur-[128px] opacity-20 animate-pulse"></div>
@@ -60,12 +60,12 @@ const OXOLanding = () => {
               <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#2563EB] to-[#7C3AED]">OXO</span>
               <span className="ml-2 text-sm font-medium tracking-widest text-[#E0F2FE]/70">DEX TRADING</span>
             </div>
-            
+
             <div className="hidden md:flex items-center space-x-8">
               <a href="#" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Fitur</a>
               <a href="#" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Roadmap</a>
               <a href="#" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Komunitas</a>
-              <button 
+              <button
                 onClick={scrollToAssessment}
                 className="px-5 py-2 rounded-full bg-gradient-to-r from-[#2563EB] to-[#7C3AED] text-white font-medium text-sm hover:shadow-[0_0_20px_rgba(124,58,237,0.5)] transition-all transform hover:-translate-y-0.5"
               >
@@ -80,7 +80,7 @@ const OXOLanding = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-[#0B1120] border-b border-white/10 absolute w-full">
@@ -101,18 +101,18 @@ const OXOLanding = () => {
           <span className="flex h-2 w-2 rounded-full bg-[#22D3EE] mr-2 animate-pulse"></span>
           <span className="text-sm font-medium text-[#E0F2FE]">✨ Web3 Growth Check-Up by OXO</span>
         </div>
-        
+
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
           <span className="text-white">Dari Newbie Jadi Whale,</span> <br />
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#2563EB] via-[#7C3AED] to-[#22D3EE]">Lebih Terarah.</span>
         </h1>
-        
+
         <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-[#E0F2FE]/80 leading-relaxed">
           Capek main crypto cuma ikut-ikutan FOMO terus boncos? Isi 3-menit assessment ini, tim OXO bakal kirim roadmap personal biar kamu upgrade dari "coba-coba" jadi pemain Web3 yang punya kompas jelas.
         </p>
-        
+
         <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
-          <button 
+          <button
             onClick={scrollToAssessment}
             className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-[#2563EB] to-[#7C3AED] text-white font-bold text-lg shadow-lg shadow-[#7C3AED]/30 hover:shadow-[#7C3AED]/50 hover:scale-105 transition-all duration-300 flex items-center justify-center group"
           >
@@ -120,7 +120,7 @@ const OXOLanding = () => {
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
-        
+
         <div className="mt-6 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-[#E0F2FE]/60">
           <span className="flex items-center"><CheckCircle className="w-4 h-4 mr-1 text-[#22D3EE]" /> Gratis</span>
           <span className="flex items-center"><CheckCircle className="w-4 h-4 mr-1 text-[#22D3EE]" /> Tanpa Deposit</span>
@@ -183,11 +183,11 @@ const OXOLanding = () => {
               </ul>
             </div>
           </div>
-          
+
           <div className="mt-10 text-center">
-             <button onClick={scrollToAssessment} className="px-8 py-3 rounded-xl border border-[#2563EB] text-[#E0F2FE] hover:bg-[#2563EB] hover:text-white transition-all duration-300 font-medium">
-               Yuk, Mulai Cek Portofolio
-             </button>
+            <button onClick={scrollToAssessment} className="px-8 py-3 rounded-xl border border-[#2563EB] text-[#E0F2FE] hover:bg-[#2563EB] hover:text-white transition-all duration-300 font-medium">
+              Yuk, Mulai Cek Portofolio
+            </button>
           </div>
         </div>
       </section>
@@ -196,7 +196,7 @@ const OXOLanding = () => {
       <section className="relative z-10 py-20 bg-gradient-to-b from-[#0B1120] to-[#1E3A8A]/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Setelah Isi Form, Kamu Bakal Dapet Apa?</h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
@@ -239,7 +239,7 @@ const OXOLanding = () => {
       <section className="py-20 bg-[#0B1120] relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-12">Cocok Buat Kamu yang...</h2>
-          
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               { role: "🌱 Newbie", desc: "Pengen mulai crypto dengan fondasi bener, nggak mau belajar sendirian." },
@@ -278,7 +278,7 @@ const OXOLanding = () => {
                 ].map((feature, idx) => (
                   <div key={idx} className="flex">
                     <div className="flex-shrink-0 h-10 w-10 rounded-full bg-[#7C3AED]/20 flex items-center justify-center text-[#7C3AED] border border-[#7C3AED]/30">
-                      {idx === 0 ? <Zap size={18}/> : idx === 1 ? <Shield size={18}/> : <Users size={18}/>}
+                      {idx === 0 ? <Zap size={18} /> : idx === 1 ? <Shield size={18} /> : <Users size={18} />}
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-bold text-white">{feature.title}</h4>
@@ -288,7 +288,7 @@ const OXOLanding = () => {
                 ))}
               </div>
             </div>
-            
+
             <div className="mt-12 lg:mt-0 relative">
               <div className="absolute inset-0 bg-gradient-to-r from-[#2563EB] to-[#7C3AED] blur-3xl opacity-20 transform rotate-6 rounded-3xl"></div>
               {/* Updated DEX UI based on requested image */}
@@ -310,7 +310,7 @@ const OXOLanding = () => {
                       <div className="flex items-center gap-2">
                         <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-xs text-white">X</div>
                         <div>
-                          <div className="font-bold flex items-center gap-1 text-white">IDRX <ChevronDown size={14} className="text-gray-400 group-hover:text-white"/></div>
+                          <div className="font-bold flex items-center gap-1 text-white">IDRX <ChevronDown size={14} className="text-gray-400 group-hover:text-white" /></div>
                           <div className="text-[10px] text-gray-500">1 IDRX ≈ 1 IDR</div>
                         </div>
                       </div>
@@ -329,7 +329,7 @@ const OXOLanding = () => {
                       <div className="flex items-center gap-2">
                         <div className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center font-bold text-xs text-white">T</div>
                         <div>
-                          <div className="font-bold flex items-center gap-1 text-white">USDT <ChevronDown size={14} className="text-gray-400 group-hover:text-white"/></div>
+                          <div className="font-bold flex items-center gap-1 text-white">USDT <ChevronDown size={14} className="text-gray-400 group-hover:text-white" /></div>
                           <div className="text-[10px] text-yellow-500 font-medium">On BSC</div>
                         </div>
                       </div>
@@ -342,9 +342,9 @@ const OXOLanding = () => {
                   <div className="text-sm font-medium text-gray-300 mb-2">Send</div>
                   <div className="bg-[#0B1120] p-4 rounded-xl border border-white/5 flex items-center gap-3 focus-within:border-[#2563EB]/50 transition-all">
                     <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center font-bold text-xs text-white flex-shrink-0">X</div>
-                    <input 
-                      type="text" 
-                      defaultValue="1.000.000" 
+                    <input
+                      type="text"
+                      defaultValue="1.000.000"
                       className="bg-transparent text-xl font-bold text-white focus:outline-none w-full"
                     />
                   </div>
@@ -354,9 +354,9 @@ const OXOLanding = () => {
                 <div className="mb-6">
                   <div className="text-sm font-medium text-gray-300 mb-2">Destination Address</div>
                   <div className="bg-[#0B1120] p-4 rounded-xl border border-white/5 focus-within:border-[#2563EB]/50 transition-all">
-                    <input 
-                      type="text" 
-                      placeholder="Input wallet address" 
+                    <input
+                      type="text"
+                      placeholder="Input wallet address"
                       className="bg-transparent text-sm text-gray-300 focus:outline-none w-full placeholder-gray-600"
                     />
                   </div>
@@ -374,18 +374,23 @@ const OXOLanding = () => {
                       <span className="font-mono">60s</span>
                       <span className="text-gray-600">|</span>
                       <span className="text-gray-500 flex items-center gap-1">
-                         <div className="w-3 h-3 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500"></div>
-                         Celer cBridge
+                        <div className="w-3 h-3 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500"></div>
+                        Celer cBridge
                       </span>
                     </div>
                   </div>
                 </div>
 
                 {/* Button */}
-                <button className="w-full py-4 bg-[#4F46E5] hover:bg-[#4338CA] text-white font-bold rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/40 hover:-translate-y-0.5">
+                <a
+                  href="https://oxo.so/trade"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-4 bg-[#4F46E5] hover:bg-[#4338CA] text-white font-bold rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/40 hover:-translate-y-0.5"
+                >
                   <Lock size={18} />
                   Connect Account
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -444,7 +449,7 @@ const OXOLanding = () => {
 const AssessmentForm = () => {
   // CONFIGURATION: UPDATED URL
   const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx_F3ub7Ulpu9RE96nBr5NFeyNf7O3I-Bsn8vMoqDAdYIJr0-reNchobvWl_EHsHBXg/exec";
-  
+
   const [step, setStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -455,9 +460,9 @@ const AssessmentForm = () => {
     experience: '',
     role: '',
     goal: '',
-    keyTakeaways: '',   
-    webinarFeedback: '', 
-    source: [] as string[]           
+    keyTakeaways: '',
+    webinarFeedback: '',
+    source: [] as string[]
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -486,59 +491,59 @@ const AssessmentForm = () => {
     setIsSubmitting(true);
 
     try {
-        // Prepare data for Google Apps Script
-        const response = await fetch(GOOGLE_SCRIPT_URL, {
-            method: 'POST',
-            body: JSON.stringify({
-                ...formData,
-                source: formData.source.join(', '), 
-                submittedAt: new Date().toISOString()
-            }),
-            headers: {
-                "Content-Type": "text/plain;charset=utf-8",
-            },
-        });
+      // Prepare data for Google Apps Script
+      const response = await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        body: JSON.stringify({
+          ...formData,
+          source: formData.source.join(', '),
+          submittedAt: new Date().toISOString()
+        }),
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8",
+        },
+      });
 
-        if (response.ok) {
-            setIsSubmitted(true);
-        } else {
-            console.warn("Server response not OK, but data might be saved.");
-            setIsSubmitted(true); // Optimistic UI update
-        }
+      if (response.ok) {
+        setIsSubmitted(true);
+      } else {
+        console.warn("Server response not OK, but data might be saved.");
+        setIsSubmitted(true); // Optimistic UI update
+      }
 
     } catch (error) {
-        console.error("Error submitting form:", error);
-        alert("Ada gangguan koneksi. Coba lagi ya!");
+      console.error("Error submitting form:", error);
+      alert("Ada gangguan koneksi. Coba lagi ya!");
     } finally {
-        setIsSubmitting(false);
+      setIsSubmitting(false);
     }
   };
 
   if (isSubmitted) {
     const handleWhatsAppRedirect = () => {
       const textToCopy = "Saya sudah mengisi Form untuk Roadmap saya, Terima Kasih";
-      
+
       // Fallback: Create a textarea to copy from
       const textArea = document.createElement("textarea");
       textArea.value = textToCopy;
-      
+
       // Make it invisible
       textArea.style.position = "fixed";
       textArea.style.left = "-9999px";
       textArea.style.top = "0";
-      
+
       document.body.appendChild(textArea);
-      
+
       textArea.focus();
       textArea.select();
-      
+
       try {
         document.execCommand('copy');
         console.log('Text copied via execCommand');
       } catch (err) {
         console.error('Failed to copy via execCommand', err);
       }
-      
+
       document.body.removeChild(textArea);
 
       // Redirect to WhatsApp Group URL
@@ -555,7 +560,7 @@ const AssessmentForm = () => {
           Thanks {formData.name}, tim OXO lagi racik strategi buat kamu. Cek email <strong>{formData.email}</strong> dalam 24-48 jam ya.
         </p>
 
-        <button 
+        <button
           onClick={handleWhatsAppRedirect}
           className="w-full px-6 py-4 rounded-xl bg-[#25D366] hover:bg-[#128C7E] text-white font-bold shadow-lg shadow-green-900/20 transition-all flex items-center justify-center gap-2 mb-4 group"
         >
@@ -576,7 +581,7 @@ const AssessmentForm = () => {
     <div className="bg-[#1E293B]/60 backdrop-blur-md border border-[#2563EB]/20 rounded-2xl p-6 sm:p-8 shadow-2xl relative">
       {/* Progress Bar */}
       <div className="absolute top-0 left-0 w-full h-1 bg-[#0B1120] rounded-t-2xl overflow-hidden">
-        <div 
+        <div
           className="h-full bg-gradient-to-r from-[#2563EB] to-[#7C3AED] transition-all duration-500"
           style={{ width: `${(step / 3) * 100}%` }}
         ></div>
@@ -590,33 +595,33 @@ const AssessmentForm = () => {
           </h3>
         </div>
         <div className="text-xs text-gray-500 hidden sm:block">
-            Gratis · 3 Menit
+          Gratis · 3 Menit
         </div>
       </div>
 
       <form onSubmit={step === 3 ? handleSubmit : handleNext}>
         {step === 1 && (
           <div className="space-y-5 animate-fade-in">
-            <InputField 
-              label="Email kamu" 
-              name="email" 
-              type="email" 
-              placeholder="nama@email.com" 
-              value={formData.email} 
-              onChange={handleChange} 
+            <InputField
+              label="Email kamu"
+              name="email"
+              type="email"
+              placeholder="nama@email.com"
+              value={formData.email}
+              onChange={handleChange}
               helper="Cuma buat kirim roadmap. Nggak akan dishare ke siapapun."
               required
             />
-            <InputField 
-              label="Nama Lengkap" 
-              name="name" 
-              type="text" 
-              placeholder="Satoshi Nakamoto" 
-              value={formData.name} 
+            <InputField
+              label="Nama Lengkap"
+              name="name"
+              type="text"
+              placeholder="Satoshi Nakamoto"
+              value={formData.name}
               onChange={handleChange}
-              required 
+              required
             />
-             <div className="space-y-2">
+            <div className="space-y-2">
               <label className="block text-sm font-medium text-[#E0F2FE]">Usia kamu sekarang?</label>
               <div className="grid grid-cols-3 gap-3">
                 {['< 20', '20 - 30', '> 30'].map(opt => (
@@ -629,7 +634,7 @@ const AssessmentForm = () => {
 
         {step === 2 && (
           <div className="space-y-6 animate-fade-in">
-             <div className="space-y-2">
+            <div className="space-y-2">
               <label className="block text-sm font-medium text-[#E0F2FE]">Berapa lama main Crypto?</label>
               <div className="grid gap-3">
                 {[
@@ -657,9 +662,9 @@ const AssessmentForm = () => {
             {/* Existing Goal Select */}
             <div className="space-y-2">
               <label className="block text-sm font-medium text-[#E0F2FE]">Goal 3 bulan ke depan?*</label>
-              <select 
-                name="goal" 
-                value={formData.goal} 
+              <select
+                name="goal"
+                value={formData.goal}
                 onChange={handleChange}
                 className="w-full bg-[#0B1120] border border-[#2563EB]/30 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#7C3AED] transition-colors"
                 required
@@ -671,31 +676,31 @@ const AssessmentForm = () => {
                 <option value="network">Bangun Network Web3</option>
               </select>
             </div>
-            
+
             {/* NEW: Belajar apa dari webinar ini? */}
             <div className="space-y-2">
-                <label className="block text-sm font-medium text-[#E0F2FE]">Belajar apa dari webinar ini?*</label>
-                <textarea 
-                    name="keyTakeaways"
-                    value={formData.keyTakeaways}
-                    onChange={handleChange}
-                    className="w-full bg-[#0B1120] border border-[#2563EB]/30 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#7C3AED] transition-colors h-24 resize-none placeholder-gray-500"
-                    placeholder="Ceritain 1-3 hal yang paling nyantol di pikiranmu"
-                    required
-                ></textarea>
+              <label className="block text-sm font-medium text-[#E0F2FE]">Belajar apa dari webinar ini?*</label>
+              <textarea
+                name="keyTakeaways"
+                value={formData.keyTakeaways}
+                onChange={handleChange}
+                className="w-full bg-[#0B1120] border border-[#2563EB]/30 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#7C3AED] transition-colors h-24 resize-none placeholder-gray-500"
+                placeholder="Ceritain 1-3 hal yang paling nyantol di pikiranmu"
+                required
+              ></textarea>
             </div>
 
             {/* NEW: Masukan untuk webinar? */}
             <div className="space-y-2">
-                <label className="block text-sm font-medium text-[#E0F2FE]">Masukan untuk webinar?*</label>
-                <textarea 
-                    name="webinarFeedback"
-                    value={formData.webinarFeedback}
-                    onChange={handleChange}
-                    className="w-full bg-[#0B1120] border border-[#2563EB]/30 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#7C3AED] transition-colors h-24 resize-none placeholder-gray-500"
-                    placeholder="Apa yang perlu kami benerin atau tambahin?"
-                    required
-                ></textarea>
+              <label className="block text-sm font-medium text-[#E0F2FE]">Masukan untuk webinar?*</label>
+              <textarea
+                name="webinarFeedback"
+                value={formData.webinarFeedback}
+                onChange={handleChange}
+                className="w-full bg-[#0B1120] border border-[#2563EB]/30 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#7C3AED] transition-colors h-24 resize-none placeholder-gray-500"
+                placeholder="Apa yang perlu kami benerin atau tambahin?"
+                required
+              ></textarea>
             </div>
 
             {/* NEW: Dari mana tau OXO? (Checkbox) */}
@@ -704,15 +709,15 @@ const AssessmentForm = () => {
               <div className="grid grid-cols-2 gap-2">
                 {['Instagram', 'Referral', 'Twitter', 'Telegram', 'Google', 'WA Group'].map(opt => (
                   <label key={opt} className={`cursor-pointer border rounded-lg px-3 py-3 flex items-center transition-all ${formData.source.includes(opt) ? 'bg-[#2563EB]/20 border-[#7C3AED] text-white' : 'bg-[#0B1120] border-white/10 text-gray-400 hover:border-white/30'}`}>
-                    <input 
-                      type="checkbox" 
-                      value={opt} 
-                      checked={formData.source.includes(opt)} 
-                      onChange={handleCheckboxChange} 
-                      className="hidden" 
+                    <input
+                      type="checkbox"
+                      value={opt}
+                      checked={formData.source.includes(opt)}
+                      onChange={handleCheckboxChange}
+                      className="hidden"
                     />
                     <div className={`w-4 h-4 rounded border mr-3 flex items-center justify-center ${formData.source.includes(opt) ? 'border-[#7C3AED] bg-[#7C3AED]' : 'border-gray-500'}`}>
-                        {formData.source.includes(opt) && <CheckSquare size={12} className="text-white" />}
+                      {formData.source.includes(opt) && <CheckSquare size={12} className="text-white" />}
                     </div>
                     <span className="text-sm font-medium">{opt}</span>
                   </label>
@@ -721,37 +726,37 @@ const AssessmentForm = () => {
             </div>
 
             <div className="flex items-start pt-2">
-                <input type="checkbox" className="mt-1 mr-3 rounded border-gray-600 bg-[#0B1120] text-[#7C3AED] focus:ring-[#7C3AED]" required />
-                <span className="text-xs text-gray-400">Saya setuju data dipakai buat analisis dan kirim roadmap. Bisa berhenti kapan aja.</span>
+              <input type="checkbox" className="mt-1 mr-3 rounded border-gray-600 bg-[#0B1120] text-[#7C3AED] focus:ring-[#7C3AED]" required />
+              <span className="text-xs text-gray-400">Saya setuju data dipakai buat analisis dan kirim roadmap. Bisa berhenti kapan aja.</span>
             </div>
           </div>
         )}
 
         <div className="mt-8 flex gap-4">
           {step > 1 && (
-            <button 
-              type="button" 
+            <button
+              type="button"
               onClick={() => setStep(step - 1)}
               className="px-6 py-3 rounded-xl border border-white/10 text-gray-300 hover:bg-white/5 font-medium transition-colors"
             >
               Back
             </button>
           )}
-          <button 
+          <button
             type="submit"
             disabled={isSubmitting}
             className={`flex-1 px-6 py-3 rounded-xl bg-gradient-to-r from-[#2563EB] to-[#7C3AED] text-white font-bold shadow-lg shadow-[#2563EB]/20 hover:shadow-[#2563EB]/40 hover:scale-[1.02] transition-all flex items-center justify-center ${isSubmitting ? 'opacity-70 cursor-wait' : ''}`}
           >
             {isSubmitting ? (
-               <>
-                 <Loader2 className="animate-spin mr-2 w-5 h-5" />
-                 Sending...
-               </>
+              <>
+                <Loader2 className="animate-spin mr-2 w-5 h-5" />
+                Sending...
+              </>
             ) : (
-               <>
-                 {step === 3 ? 'Kirim & Dapatkan Roadmap' : 'Lanjut'}
-                 {step !== 3 && <ChevronRight className="ml-2 w-4 h-4" />}
-               </>
+              <>
+                {step === 3 ? 'Kirim & Dapatkan Roadmap' : 'Lanjut'}
+                {step !== 3 && <ChevronRight className="ml-2 w-4 h-4" />}
+              </>
             )}
           </button>
         </div>
@@ -769,7 +774,7 @@ interface InputFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
 const InputField: React.FC<InputFieldProps> = ({ label, helper, ...props }) => (
   <div className="space-y-2">
     <label className="block text-sm font-medium text-[#E0F2FE]">{label}</label>
-    <input 
+    <input
       className="w-full bg-[#0B1120] border border-[#2563EB]/30 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-[#7C3AED] transition-colors"
       {...props}
     />
@@ -788,7 +793,7 @@ const RadioCardRow = ({ name, value, label, sub, selected, onChange }: any) => (
   <label className={`cursor-pointer border rounded-lg px-4 py-3 flex items-center transition-all ${selected === value ? 'bg-[#2563EB]/20 border-[#7C3AED]' : 'bg-[#0B1120] border-white/10 hover:border-white/30'}`}>
     <input type="radio" name={name} value={value} checked={selected === value} onChange={onChange} className="hidden" />
     <div className={`w-4 h-4 rounded-full border mr-4 flex items-center justify-center ${selected === value ? 'border-[#7C3AED]' : 'border-gray-500'}`}>
-        {selected === value && <div className="w-2 h-2 rounded-full bg-[#7C3AED]"></div>}
+      {selected === value && <div className="w-2 h-2 rounded-full bg-[#7C3AED]"></div>}
     </div>
     <div>
       <div className={`text-sm font-bold ${selected === value ? 'text-white' : 'text-gray-300'}`}>{label}</div>
@@ -802,8 +807,8 @@ const FaqItem = ({ question, answer }: { question: string, answer: string }) => 
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="border border-white/10 rounded-lg bg-[#1E293B]/20 overflow-hidden">
-      <button 
-        onClick={() => setIsOpen(!isOpen)} 
+      <button
+        onClick={() => setIsOpen(!isOpen)}
         className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-white/5 transition-colors"
       >
         <span className="font-medium text-[#E0F2FE]">{question}</span>
