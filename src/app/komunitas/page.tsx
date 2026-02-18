@@ -27,11 +27,19 @@ const CommunityPage = () => {
 
     const socialLinks = [
         {
+            name: "Website",
+            icon: <Globe size={32} />,
+            desc: "Official Platform",
+            color: "from-indigo-500 to-purple-500",
+            link: "https://oxo.so",
+            stat: "Live Now"
+        },
+        {
             name: "Instagram",
             icon: <Instagram size={32} />,
             desc: "Daily Updates & Highlights",
             color: "from-pink-500 via-red-500 to-yellow-500",
-            link: "#",
+            link: "https://www.instagram.com/oxocrypto",
             stat: "12K+ Followers"
         },
         {
@@ -39,7 +47,7 @@ const CommunityPage = () => {
             icon: <Twitter size={32} />, // Or use custom X SVG
             desc: "Real-time News & Alpha",
             color: "from-gray-700 to-black",
-            link: "#",
+            link: "https://x.com/oxo_society",
             stat: "5K+ Followers"
         },
         {
@@ -47,7 +55,7 @@ const CommunityPage = () => {
             icon: <Send size={32} />, // Placeholder for Telegram
             desc: "Community Chat & Signals",
             color: "from-blue-400 to-blue-600",
-            link: "#",
+            link: "https://t.me/oxocommunityhub",
             stat: "8K+ Members"
         },
         {
@@ -63,8 +71,8 @@ const CommunityPage = () => {
             icon: <Gamepad2 size={32} />,
             desc: "Deep Dives & Governance",
             color: "from-indigo-400 to-indigo-600",
-            link: "#",
-            stat: "Coming Soon"
+            link: "https://discord.gg/bGMDNDyJRr",
+            stat: "Join Now"
         }
     ];
 
