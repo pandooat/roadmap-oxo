@@ -90,13 +90,12 @@ const CommunityPage = () => {
                     <div className="flex justify-between items-center h-20">
                         <a href="/" className="flex-shrink-0 flex items-center">
                             <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#2563EB] to-[#7C3AED]">OXO</span>
-                            <span className="ml-2 text-sm font-medium tracking-widest text-[#E0F2FE]/70">DEX TRADING</span>
+                            <span className="ml-2 text-sm font-medium tracking-widest text-[#E0F2FE]/70">Roadmap</span>
                         </a>
 
                         <div className="hidden md:flex items-center space-x-8">
                             <a href="/" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Home</a>
-                            <a href="#" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Fitur</a>
-                            <a href="#" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Roadmap</a>
+
                         </div>
 
                         <div className="md:hidden">

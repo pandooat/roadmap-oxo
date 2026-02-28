@@ -58,12 +58,11 @@ const OXOLanding = () => {
           <div className="flex justify-between items-center h-20">
             <div className="flex-shrink-0 flex items-center">
               <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#2563EB] to-[#7C3AED]">OXO</span>
-              <span className="ml-2 text-sm font-medium tracking-widest text-[#E0F2FE]/70">DEX TRADING</span>
+              <span className="ml-2 text-sm font-medium tracking-widest text-[#E0F2FE]/70">Roadmap</span>
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Fitur</a>
-              <a href="#" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Roadmap</a>
+
               <a href="/komunitas" className="text-[#E0F2FE] hover:text-white transition-colors text-sm font-medium">Komunitas</a>
               <button
                 onClick={scrollToAssessment}
@@ -85,8 +84,7 @@ const OXOLanding = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-[#0B1120] border-b border-white/10 absolute w-full">
             <div className="px-4 pt-2 pb-6 space-y-2">
-              <a href="#" className="block px-3 py-2 text-base font-medium text-[#E0F2FE] hover:bg-white/5 rounded-md">Fitur</a>
-              <a href="#" className="block px-3 py-2 text-base font-medium text-[#E0F2FE] hover:bg-white/5 rounded-md">Roadmap</a>
+
               <a href="/komunitas" className="block px-3 py-2 text-base font-medium text-[#E0F2FE] hover:bg-white/5 rounded-md">Komunitas</a>
               <button onClick={scrollToAssessment} className="w-full text-left mt-4 block px-3 py-3 text-base font-bold bg-gradient-to-r from-[#2563EB] to-[#7C3AED] rounded-md text-white">
                 Cek Portofolio
