@@ -20,7 +20,8 @@ import {
   CheckSquare,
   Loader2,
   MessageCircle,
-  Settings
+  Settings,
+  FileText
 } from 'lucide-react';
 
 const OXOLanding = () => {
@@ -118,6 +119,15 @@ const OXOLanding = () => {
             Dapatkan Roadmap Web3-ku
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
+          <a
+            href="https://drive.google.com/file/d/1hzsoYzqjfk_9YyqQLh394fr6CbsdtKVI/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto px-8 py-4 rounded-xl border border-white/20 bg-white/5 text-white font-bold text-lg hover:bg-white/10 hover:border-white/40 transition-all duration-300 flex items-center justify-center group"
+          >
+            Download Ebook Crypto Untuk Semua
+            <FileText className="ml-2 w-5 h-5 group-hover:scale-110 transition-transform" />
+          </a>
         </div>
 
         <div className="mt-6 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-[#E0F2FE]/60">
