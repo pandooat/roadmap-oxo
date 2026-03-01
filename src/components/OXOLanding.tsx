@@ -584,7 +584,7 @@ const AssessmentForm = () => {
           <ol className="list-decimal list-inside space-y-1 text-left">
             <li>Identifikasi Personal Kamu (Selesai ✅)</li>
             <li>Analisis Emosi Trading yang bikin rugi (Klik tombol oranye 👆)</li>
-            <li>Mengisi Assessment yang sesuai dengan Roadmap kamu (Di Grup WA)</li>
+            <li>Mengisi Assessment yang sesuai dengan Roadmap kamu (Setelah Tahu Emosi Trading kamu)</li>
           </ol>
         </div>
 
