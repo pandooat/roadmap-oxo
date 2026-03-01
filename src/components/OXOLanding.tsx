@@ -567,7 +567,26 @@ const AssessmentForm = () => {
           Gabung Grup WA & Konfirmasi
         </button>
 
-        <p className="text-xs text-gray-400 mb-4">*Pesan konfirmasi akan otomatis disalin. Tinggal Paste di grup.</p>
+        <a
+          href="https://oxoducation.vercel.app/emotional-audit"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full px-6 py-4 rounded-xl bg-gradient-to-r from-[#F59E0B] to-[#D97706] hover:from-[#D97706] hover:to-[#B45309] text-white font-bold shadow-lg shadow-amber-900/20 transition-all flex items-center justify-center gap-2 mb-6 group"
+        >
+          <svg className="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+          </svg>
+          Analisis Emosi Trading Biar Ga Rugi Terus
+        </a>
+
+        <div className="bg-black/20 rounded-lg p-4 mb-6 text-sm text-[#E0F2FE]/80">
+          <p className="font-semibold text-white mb-2">Langkah Selanjutnya:</p>
+          <ol className="list-decimal list-inside space-y-1 text-left">
+            <li>Identifikasi Personal Kamu (Selesai ✅)</li>
+            <li>Analisis Emosi Trading yang bikin rugi (Klik tombol oranye 👆)</li>
+            <li>Mengisi Assessment yang sesuai dengan Roadmap kamu (Di Grup WA)</li>
+          </ol>
+        </div>
 
         <button onClick={() => window.location.reload()} className="text-[#22D3EE] hover:underline text-sm">
           Isi ulang form
